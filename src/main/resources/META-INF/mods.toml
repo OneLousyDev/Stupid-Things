@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT"
+[[mods]]
+modId="stupidthings"
+version="${file.jarVersion}"
+displayName="Stupid Things"
+credits="Furgl for original mod"
+authors="OneLousyDev"
+description='''A unofficial port of Stupid Things to modern Minecraft versions'''
+[[dependencies.stupidthings]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.stupidthings]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.lousiestechmod]]
+    modId="lousycore"
+    mandatory=true
+    versionRange="[0.3.3,0.4.0)"
+    ordering="AFTER"
+    side="BOTH"
+
